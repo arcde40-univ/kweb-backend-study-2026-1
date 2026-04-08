@@ -2,7 +2,7 @@ const express = require("express");
 
 const app = express();
 
-app.get("/food", (req, res) => {
+app.get("/asdf", (req, res) => {
     res.send("<h1>Hi, Human!</h1>");
 });
 
